@@ -1,5 +1,7 @@
 # Cretaing intaractive sidebar
 
+<img src="./Sidebar.gif" alt="Gif Sidebar" title="Sidebar">
+
 ## Prerequisites
 To download this project you will need to install some things like:
 * [Visual Studio Code](https://code.visualstudio.com/download) recommended
