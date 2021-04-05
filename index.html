@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <nav class="sidebar">
+            <ul>
+                <li><a onclick="Toggle.showMenu()" href="#">Home</a></li>
+                <li><a onclick="Toggle.showMenu()" href="#">About</a></li>
+                <li><a onclick="Toggle.showMenu()" href="#">Services</a></li>
+                <li><a onclick="Toggle.showMenu()" href="#">Team</a></li>
+                <li><a onclick="Toggle.showMenu()" href="#">Portfolio</a></li>
+                <li><a onclick="Toggle.showMenu()" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="button-menu" onclick="Toggle.showMenu()"></div>
+
+    <main onclick="Toggle.closeMenu()">
+        
+        <article>
+            <h1>
+                2 big Problems 
+                <br>
+                Small Solution.
+            </h1>
+
+            <p><span class="topc">01</span> Closing Sidebar by Clicking Outside</p>
+            <p><span class="topc">02</span> Auto Close Sidebar When click on Link</p>
+        </article>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
